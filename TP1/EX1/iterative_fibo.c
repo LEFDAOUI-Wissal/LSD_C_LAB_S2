@@ -1,4 +1,5 @@
 #include "header.h"
+#include <stdio.h>
 
 int iterative_fibo(int n)
 {
