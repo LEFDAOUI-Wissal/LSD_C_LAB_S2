@@ -2,5 +2,12 @@
 
 int iterative_fibo(int n)
 {
-    // write your iterative_fibo code here
+    int m=1, s=1;
+	for (int i =1, i<=n , i++)
+	    {
+		    int F= m+ s;
+		    m=s;
+		    s=F;
+	    }
+	return F;
 }
