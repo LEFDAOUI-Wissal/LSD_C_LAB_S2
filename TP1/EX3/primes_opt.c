@@ -24,10 +24,10 @@ void    get_primes_opt(int n)
 	if (n==0)
 		return ;
 	if(n==1)
-		printf(’’%c’’, 1);
+		printf(’’1’’);
     else
     {
-	    printf(’’%c’’, 2);
+	    printf(’’2’’);
 	    for(int i==3,i<=(labs(n)), i=i+2)
 		    if (is_prime(i)==1)
 			    printf(‘’ %d ’’, i);
